@@ -35,7 +35,7 @@ It uses Wikidata to fetch information about personalities, their professions, an
 ---
 
 https://github.com/Deepak172003/Indian-City-Achievers-Explorer/blob/e4b589fd05436ebb462927cf3ca8866765044b89/Screenshot%20(113).png
-
+https://github.com/Deepak172003/Indian-City-Achievers-Explorer/blob/40abb81e2f86d940926ffdab3ce41a4852a025af/Screenshot%20(114).png
 
 
 
