@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Achievers Explorer</title>
+    <link rel="stylesheet" href="Task7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Indian City Achievers Explorer</h1>
+        <p>Discover notable people from any city in India. Learn about famous personalities, their professions and contributions.</p>
+
+        <!-- Search Form -->
+        <form id="searchForm">
+            <label for="searchInput">City Name</label>
+            <input type="text" id="searchInput" placeholder="Enter an Indian city name">
+            <small>Popular searches: Mumbai, Delhi, Bangalore, Chennai, Kolkata</small>
+            <button type="submit" id="searchButton">Find Notable People</button>
+        </form>
+
+        <!-- Status Message -->
+        <div id="status" class="status" style="display:none;"></div>
+
+        <!-- Sort and Filter Controls -->
+        <div id="sortOptions" style="display:none; margin: 20px 0; background: #f5f5f5; padding: 15px; border-radius: 8px;">
+            <label for="sortSelect">Sort by:</label>
+            <select id="sortSelect">
+                <option value="name">Name</option>
+                <option value="birth">Birth Year</option>
+                <option value="death">Death Year</option>
+            </select>
+
+            <label for="professionFilter" style="margin-left: 10px;">Profession:</label>
+            <select id="professionFilter">
+                <option value="">All</option>
+            </select>
+        </div>
+
+        <!-- Suggestions -->
+        <div id="suggestions" class="suggestions" style="display:none;"></div>
+
+        <!-- Results -->
+        <div id="results" class="results"></div>
+
+        <!-- Pagination -->
+        <div id="pagination" style="display:none; text-align: center; margin-top: 20px;">
+            <button id="loadMore">Load More</button>
+        </div>
+
+        <!-- Share Button -->
+        <div style="text-align:center; margin-top: 20px;">
+            <button id="shareBtn" style="display:none;">Share Results</button>
+        </div>
+
+        <p class="data-note">Data provided by Wikidata and Indian geographical databases. Some results may be limited.</p>
+    </div>
+
+    <script src="Task7.js"></script>
+</body>
+</html>
