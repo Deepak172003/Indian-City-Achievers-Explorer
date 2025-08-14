@@ -2,24 +2,39 @@
 This project is a simple web application that lets you explore notable people from any city in India.
 It uses Wikidata to fetch information about personalities, their professions, and birth/death years.
 
-Features:-
-Search by City – Type the name of any Indian city and get a list of notable people.
-Live Suggestions – Auto-suggests city names as you type.
-Sorting Options – Sort results by name, birth year, or death year.
-Profession Filter – Narrow results to people from a specific profession.
-Pagination – Load more results without refreshing.
-Duplicate Removal – Ensures no person appears more than once.
-Shareable Link – Copy a link to share your search results.
+---
 
-How It Works:-
-City Search – User enters a city name.
-Wikidata Query – The app finds the city’s QID (unique Wikidata identifier) and confirms it’s in India.
-Fetch People – It queries Wikidata for notable people born, lived, or died in that city.
-Display & Filter – Results are shown in cards, with filtering and sorting options.
+## ✨ Features
 
-Technologies Used:-
-HTML5 – Structure
-CSS3 – Styling and layout
-JavaScript (Vanilla) – Functionality and data fetching
-Wikidata SPARQL API – Data source
+- 🔍 City Search with Auto-Suggestions – Type at least 3 letters to get clickable Indian city suggestions.
+- ⚡ Fast & Live Data – Uses SPARQL queries directly from Wikidata for up-to-date results.
+- 📋 Sorting & Filtering – Sort by name, birth year, or death year; filter by profession.
+- 📄 Pagination – Load results in batches for faster browsing.
+- 🔗 Shareable Links – Share your search results with one click.
+- ♻️ Duplicate Removal – Ensures no person appears twice.
+
+---
+
+
+## 🛠️ Technologies Used
+
+- HTML5 – Structure
+- CSS3 – Styling & Layout
+- JavaScript (Vanilla) – Dynamic functionality
+- Wikidata SPARQL API – Data source
+
+---
+
+## 🧩 How It Works
+
+1. City Search – User enters a city name.  
+2. Wikidata Query – The app finds the city’s QID (unique Wikidata identifier) and confirms it’s in India.  
+3. Fetch People – It queries Wikidata for notable people born, lived, or died in that city.  
+4. Display & Filter – Results are shown in cards, with filtering and sorting options.  
+
+---
+
+
+
+
 
